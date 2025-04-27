@@ -1,0 +1,45 @@
+yla bghit n3raf le chemin fin rani PWD
+yla bghit namchi l chi fichier daonc khasni nbadal le chemin => cd ndir hdaha chemin li bghit namchilo
+yla bghina n crew dossier bach nkhadmo f had chemin kandiro => mkdir chemin(smayt ficher yla rah deja f wast chemain)
+yla bghina n3arfo chno kayn wast wahd dossier=> ls chemain
+our savoir email => git config --global user.email
+(initailisation)bch nliew wahd projet m3a git=> kanmchiw ldak projet =>clic droit=> open bash here=>git init=> automatiquement ghadi ytla3 wahd fichier tama . git sinon namchiw affichage element masque w cochewha ghadi ytla3
+les ficher dyal projet w git khas ykono fnfs niveau 
+yla darna git status => tla3li =>untracked files => kay3ni dok les fichies mzl makay3rafhom git
+(khas nkono f chier de ytavaail)
+3adna dossier de travail                   Zone d'index                                                depot local
+modification X (ajout,supp..)=> doit etre indexer bch ta3raf bali
+                                 dart wahd mo    
+bch ndozo l andexation => git add index.html style.css 
+git status (pour verifier wach dazat andexation khas tla3 changes to be committed°
+
+ula chi fichier bghit nhaydo man zone d'index=>git reset index.html =>(pour verification git status tla3 changes(pour style.css w untracked index.html)
+yla kano 3andi bzf dyal les fichers f dak dossier bghithom kamlin ydakhlo indexation => git add .
+
+
+bch nfoto l'etape de renregestrement dyal dok les chnagements f git =>
+git commit -m"kandiro l message bch n3a9lo 3la had modification chno darna fiha"
+fach kandiro wahd modi w ndiro  =>git status => katgolk bali rah darto wahd mod f had ficher => + kat3ni zadna   - kat3ni msahna
+
+ula bghit n3raf les mod li daro f wahd fichier => git diff index.html
+(yla mchina darna indeaxtion 3ad darna git diff maghadi ytla3na walou hitchh les modification rahom f indexation)=> fhad cas => git diff --cached (bla nom de ficher afficher ga3 les modifications b non gha dayl dak ficher)
+yla bghina nkharjo man dik page =>q
+
+
+
+yla dart => git log
+ghadi yta affichaw ga3 les commit li dart f had brojet  _chkon darha _date _le message li darnah m3ah lor de commit hda dak commit kayn (head->master )katkon gha f wahd bach yawarik version li rak fiha li dart akhir mara
+head kaykon f version li rak fiha master katkon dayman f akhir modi
+yla bghina nchofo mes modification kandiro =>git show (sowan) dok lar9am li bzf dyal dak commit
+yla bghina raj3o nkhadmo f wahd version kandiro => git checkout (ntab3oha b dak numero dyal dik commit)(fch kaysali katla3lk head is now at hadik commit hitch hna golna bali head katkon f dik version li rahna kankhadmo 3liha  => fach ghadi raj3o lhad version yla darna => git log maghadoich afficher les mof lo daro mor dik version
+yla bghina raj3o akhir version darna =>git checkout master
+yla bghina namchiw l wahd version bla dak ra9m lkbir n9ado nkhadmo b les tages =>1 etape => git checkout dak ra9m => git tag na3tiw dak tag li bghana => mara jaya fach ghadi nabghiw nbadlo version directement bla mandiro git log => git checkout tag
+yla bghina nmasho chi tag => git tag --delet nom_tag :::: n9ado nzido l chi tag wahd message lors craetion -m" kandiro message dyalna"
+yla bghina nchfo ga3 li tag li kaynin => git tag
+
+ 
+
+
+
+
+
